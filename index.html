@@ -1,0 +1,300 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>avianlovers</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <style amp-custom>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7f6;
+    }
+
+    header {
+      background: linear-gradient(100deg, #04fb14, #180d01c1);
+      color: rgb(16, 1, 1);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      margin: 0px;
+      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-transform: capitalize;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .blog-post {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .blog-post h2 {
+      font-size: 1.8em;
+      margin: 10px 0;
+    }
+
+    .blog-post p {
+      line-height: 1.6;
+      font-size: 12px;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .blog-post amp-carousel {
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 13px 0px;
+      font-size: 11px;
+    }
+
+    /* Mobile styles */
+    @media only screen and (max-width: 768px) {
+      h1 {
+        font-size: 18px;
+      }
+
+      .container {
+        padding: 15px;
+      }
+
+      .blog-post h2 {
+        font-size: 1.5em;
+      }
+
+      .blog-post p {
+        font-size: 1em;
+      }
+
+      amp-carousel {
+        height: 300px;
+      }
+
+      .blog-post img {
+        height: 300px;
+      }
+    }
+
+    /* Tablet styles */
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      h1 {
+        font-size: 2.2em;
+      }
+
+      .blog-post h2 {
+        font-size: 1.7em;
+      }
+
+      .blog-post p {
+        font-size: 1.05em;
+      }
+
+      amp-carousel {
+        height: 400px;
+      }
+
+      .blog-post img {
+        height: 400px;
+      }
+    }
+
+    /* Desktop styles */
+    @media only screen and (min-width: 1024px) {
+      h1 {
+        font-size: 20px;
+      }
+
+      .blog-post {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .blog-post h2 {
+        font-size: 23px;
+        font-weight: 400;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      .blog-post p {
+        font-size: 12px;
+      }
+
+      amp-carousel {
+        height: 500px;
+        flex-basis: 50%;
+      }
+
+      .blog-post img {
+        height: 500px;
+      }
+
+      .blog-post div {
+        flex-basis: 50%;
+        padding: 20px;
+      }
+    }
+  </style>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<body>
+
+  <header>
+    <img src="./parrotlogo-removebg-preview.png" style="width: 70px;">
+    <h1>birdsofnature</h1>
+  </header>
+
+  <div class="container">
+    <article class="blog-post">
+      <amp-carousel height="600" layout="fixed-height" type="carousel" role="region" aria-label="Basic usage carousel">
+        <amp-img src="./pexels-frans-van-heerden-201846-12582866.jpg" width="1000" height="500" alt="a sample image"></amp-img>
+        <amp-img src="./pexels-peter-kovesi-421914941-19896216.jpg" width="1000" height="500" alt="another sample image"></amp-img>
+        <amp-img src="./pexels-peter-kovesi-421914941-19896238.jpg" width="1000" height="500" alt="and another sample image"></amp-img>
+        <amp-img src="./images (21).png" width="1000" height="500" alt="and another sample image"></amp-img>
+      </amp-carousel>
+      <div>
+        <h2>Why Great Indian Bustards are listed under IUCN</h2>
+        <p><small>Posted on August 17, 2024 (Lakshya Mehta)</small></p>
+        <p>Saving the Great Indian Bustard: Why IUCN Listing Matters
+
+          The Great Indian Bustard, a majestic bird native to the Indian subcontinent, is on the edge of extinction. It has been listed as 'Critically Endangered' by the IUCN due to rapid habitat loss and degradation. Once widespread, their range has shrunk drastically due to agricultural expansion and infrastructure development. 
+          
+          Other threats include power line collisions, illegal hunting, human disturbance, predation of eggs and chicks, and inbreeding in isolated populations. Conservation efforts are vital and include habitat restoration, establishing protected areas, mitigating power line collisions, community education, and captive breeding programs. 
+          
+          The IUCN Red List classification is a call to action, raising awareness and prioritizing conservation actions needed to save this iconic species from extinction. With dedicated efforts, we can give the Great Indian Bustard a fighting chance and preserve a part of India's natural heritage. 
+          
+          Let's unite to protect these magnificent birds and ensure their future. Every effort counts in this race against time</p>
+        <button style="border: 2px solid rgb(245, 186, 227); padding: 12px; font-size: medium; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 0px; background-color: rgb(252, 248, 248);border-radius: 0px;
+        cursor: pointer;"><a href="https://rb.gy/p50h05">Click here</a></button>
+      </div>
+    </article>
+
+    <article class="blog-post">
+      <amp-carousel height="600" layout="fixed-height" type="carousel" role="region" aria-label="Basic usage carousel">
+        <amp-img src="./images (20).png" width="1000" height="500" alt="a sample image"></amp-img>
+        <amp-img src="./pexels-laura-restrepo-barrera-209546127-11735418.jpg" width="1000" height="500" alt="another sample image"></amp-img>
+        <amp-img src="./pexels-roman-odintsov-12715215.jpg" width="1000" height="500" alt="and another sample image"></amp-img>
+        <amp-img src="./pexels-lipeperegrin0-20353165.jpg" width="1000" height="500" alt="and another sample image"></amp-img>
+      </amp-carousel>
+      <div>
+        <h2>Green Parrot Macaw- a bird whose population is declining</h2>
+        <p><small>Posted on August 18, 2024 (Lakshya Mehta)</small></p>
+        <p>The great green parrot macaw, also known as the buffon's macaw or the great green macaw, (Scientific name: Ara ambiguus) is a stunning and impressive parrot native to the rainforests of Central and South America.The great green parrot macaw's diet consists primarily of fruits, berries, nuts, and the occasional insect. In their natural habitat of tropical rainforests, they favor palm and laurel tree fruits and macadamia nuts. Their habitat, the tropical rainforests of Central and South America, provide tall trees for nesting and an abundance of food. Unfortunately, deforestation and agriculture threaten their homes, making conservation efforts crucial for their survival
+          They are listed as critically endangered under IUCN due to a combination of human-induced threats. Habitat loss, primarily from deforestation for agriculture and logging, has destroyed their natural homes in the tropical rainforests. Poaching for the illegal pet trade and the trapping of these magnificent birds further contribute to their declining population. With a small remaining population, conservation efforts are vital to protect their habitat and reduce these threats to ensure their long-term survival.</p>
+        <button style="border: 2px solid rgb(245, 186, 227); padding: 12px; font-size: medium; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 0px; background-color: rgb(252, 248, 248);border-radius: 0px;
+        cursor: pointer;"><a href="https://rb.gy/hof0op">Click here</a></button>  
+      </div>
+    </article>
+
+    <article class="blog-post">
+      <amp-carousel height="600" layout="fixed-height" type="carousel" role="region" aria-label="Basic usage carousel">
+        <amp-img src="./images (23).jpg" width="1000" height="500" alt="a sample image"></amp-img>
+        <amp-img src="./images (22).jpg" width="1000" height="500" alt="another sample image"></amp-img>
+        <amp-img src="./3991613863_7665523382_k.jpg" width="1000" height="500" alt="and another sample image"></amp-img>
+        <amp-img src="./California-Condor-B-Alan-Clampitt.webp" width="1000" height="500" alt="and another sample image"></amp-img>
+      </amp-carousel>
+      <div>
+        <h2>Soaring Back: The Fight to Save the California Condor</h2>
+        <p><small>Posted on August 19, 2024 (Lakshya Mehta)</small></p>
+        <p>The California condor is a magnificent bird, the largest land bird in North America, with a wingspan of up to 9.5 feet. These birds are an important part of the ecosystem, feeding on carrion and helping to keep the environment clean. Unfortunately, the California condor is also a critically endangered species, with a population of only about 500 as of 2024. The main threat to their survival is lead poisoning, caused by ingesting lead fragments from gunshot wounds. Habitat destruction and persecution have also played a part in their decline. Conservation efforts are ongoing, and it is hoped that with continued protection, the California condor will once again soar freely in the wild.
+          These are critically endangered species, with a population of only 500 as of 2022. This New World vulture is the largest land bird in North America but is now restricted to a few areas in the US and Mexico. The main threat to their survival is lead poisoning from ingested gunshot fragments, as well as habitat destruction and historical persecution. These birds are also vulnerable due to their small population and limited range. Any event that affects their habitat could be devastating for the species.
+        Conservation efforts are focused on lead poisoning prevention and habitat protection. These efforts are crucial to ensuring the California condor's survival and hopefully their eventual recovery. The species' status serves as a reminder of the impact human activities can have on vulnerable wildlife and the importance of proactive conservation measures</p>
+        <button style="border: 2px solid rgb(245, 186, 227); padding: 12px; font-size: medium; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 0px; background-color: rgb(252, 248, 248);border-radius: 0px;
+        cursor: pointer;"><a href="https://rb.gy/uqm2hu">Click here</a></button>  
+      </div>
+    </article>
+
+    <article class="blog-post">
+      <amp-carousel height="600" layout="fixed-height" type="carousel" role="region" aria-label="Basic usage carousel">
+        <amp-img src="./3776467.jpg" width="1000" height="500" alt="a sample image"></amp-img>
+        <amp-img src="./1200.png" width="1000" height="500" alt="another sample image"></amp-img>
+        <amp-img src="./Siberian-Crane_15546835731_f2cc71faa6_o.jpg" width="1000" height="500" alt="and another sample image"></amp-img>
+        <amp-img src="./siberian_Crane_bird_tour.jpg" width="1000" height="500" alt="and another sample image"></amp-img>
+      </amp-carousel>
+      <div>
+        <h2>The Majestic Journey of the Siberian Crane: Conservation Challenges and Hope</h2>
+        <p><small>Posted on August 19, 2024 (Lakshya Mehta)</small></p>
+        <p>The Siberian Crane, with the scientific name Leucogeranus leucogeranus, is a spectacular bird species that undertakes one of the world's most remarkable migrations. These cranes breed in the remote Arctic tundra of Russia and winter in the warmer climates of India and Iran. They are tall, elegant birds, standing at a height of up to 5 feet, with a striking all-white body, black primary feathers, and a distinctive red crown and facial patch. The Siberian Crane is classified as "Critically Endangered" by the IUCN Red List due to habitat loss, hunting, and other human activities along their migration routes. Efforts are being made to protect this magnificent bird, including the establishment of protected areas and international cooperation to ensure the safety of their breeding, wintering, and stopover sites. Conservation efforts are crucial to ensure the survival of this magnificent bird species. Measures are being taken to protect and restore important habitats, establish protected areas, and raise awareness among local communities about the significance of the Siberian Crane. International cooperation is also vital, as the migration routes of these cranes span multiple countries. By working together, we can make a change</p>
+        <button style="border: 2px solid rgb(245, 186, 227); padding: 12px; font-size: medium; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 0px; background-color: rgb(252, 248, 248);border-radius: 0px;
+        cursor: pointer;"><a href="https://rb.gy/fylnx7">Click here</a></button>  
+      </div>
+    </article>
+
+    <article class="blog-post">
+      <amp-carousel height="600" layout="fixed-height" type="carousel" role="region" aria-label="Basic usage carousel">
+        <amp-img src="./rs4991.jpg" width="1000" height="500" alt="a sample image"></amp-img>
+        <amp-img src="./iStock-1323318300-sourabh_bharti-long-billed_vulture.webp" width="1000" height="500" alt="another sample image"></amp-img>
+        <amp-img src="./c3643940d8fa9343c8725e3e083ee97d.png" width="1000" height="500" alt="and another sample image"></amp-img>
+        <amp-img src="./images (24).jpg" width="1000" height="500" alt="and another sample image"></amp-img>
+      </amp-carousel>
+      <div>
+        <h2>Vultures of Sun and Sky: A Slender-Billed Symphony</h2>
+        <p><small>Posted on August 19, 2024 (Lakshya Mehta)</small></p>
+        <p>The slender-billed vulture is an elegant bird of prey that resides primarily in the warm and arid regions of southern Asia with a sleek and slender build, this vulture is a masterful soarer, often seen gracefully gliding on thermal air currents high above the landscape. The scientific name for this species is Gyps tenuirostris, and it belongs to the family Accipitridae, which includes other birds of prey such as hawks & kites etc. 
+          These vultures are primarily scavengers, playing a crucial role in maintaining healthy ecosystems by feeding on carrion and reducing the spread of diseases. They have a keen sense of sight and can spot potential meals from great distances. These birds neck and head are devoid of feathers, which serves a practical purpose: it helps keep them clean and free of bacteria when they feed on carcasses.
+          Unfortunately, like many vulture species, the slender-billed vulture faces significant threats, primarily from human activities. The use of poison to control pest populations and the illegal trade in vulture body parts for traditional medicine have both taken a heavy toll on their populations. Habitat loss and the decline of suitable food sources have also contributed to their endangerment. Protecting existing habitats, raising awareness about the importance of vultures, and implementing measures to reduce the use of poisons in areas where these magnificent birds reside</p>
+        <button style="border: 2px solid rgb(245, 186, 227); padding: 12px; font-size: medium; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 0px; background-color: rgb(252, 248, 248);border-radius: 0px;
+        cursor: pointer;"><a href="https://rb.gy/fylnx7">Click here</a></button>  
+      </div>
+    </article>
+
+    <article class="blog-post">
+      <amp-carousel height="600" layout="fixed-height" type="carousel" role="region" aria-label="Basic usage carousel">
+        <amp-img src="./images (27).png" width="1000" height="500" alt="a sample image"></amp-img>
+        <amp-img src="./images (29).png" width="1000" height="500" alt="another sample image"></amp-img>
+        <amp-img src="./images 26.png" width="1000" height="500" alt="and another sample image"></amp-img>
+        <amp-img src="./images (29).png" width="1000" height="500" alt="and another sample image"></amp-img>
+      </amp-carousel>
+      <div>
+        <h2>The Vulnerable World of Antbirds: Understanding Their IUCN Status</h2>
+        <p><small>Posted on August 19, 2024 (Lakshya Mehta)</small></p>
+        <p>Many species of antbirds are listed on the IUCN Red List due to their vulnerable status and the various threats they face. Their specialized ecological relationships and habitat requirements make them particularly susceptible to habitat loss and fragmentation. As deforestation and habitat degradation occur across the American tropics, the homes and food sources of these birds are destroyed or severely impacted. Additionally, some antbird species have very small and restricted ranges, making them more susceptible to the effects of habitat change and isolation. Climate change also poses a significant threat, as it can alter the distribution and behavior of army ant swarms, disrupting the critical symbiotic relationship many antbirds rely on for food. Conservation efforts are focused on protecting and restoring their habitats, as well as studying and understanding their ecological needs, to ensure the long-term survival of these fascinating birds.</p>
+        <button style="border: 2px solid rgb(245, 186, 227); padding: 12px; font-size: medium; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 0px; background-color: rgb(252, 248, 248);border-radius: 0px;
+        cursor: pointer;"><a href="https://rb.gy/kuezh3">Click here</a></button>  
+      </div>
+    </article>
+
+    <article class="blog-post">
+      <amp-carousel height="600" layout="fixed-height" type="carousel" role="region" aria-label="Basic usage carousel">
+        <amp-img src="./pernambuco-pygmy-owl-.webp " width="1000" height="500" alt="a sample image"></amp-img>
+        <amp-img src="./images-_30_.png" width="1000" height="500" alt="another sample image"></amp-img>
+        <amp-img src="./paxton_1-052517.webp" width="1000" height="500" alt="and another sample image"></amp-img>
+        <amp-img src="" width="1000" height="500" alt="and another sample image"></amp-img>
+      </amp-carousel>
+      <div>
+        <h2>The Vulnerable World of Antbirds: Understanding Their IUCN Status</h2>
+        <p><small>Posted on August 19, 2024 (Lakshya Mehta)</small></p>
+        <p>The Pernambuco pygmy owl belongs to the Strigidae family. It is endemic to a small region of northeastern Brazil, specifically the Atlantic forest of Pernambuco and Alagoas states. These owl are mysterious and elusive creature, with a height of only 6 inches and a weight of around 1.5 ounces. It has a light brown coloring with fine black streaks and a pale throat and breast. The eyes are a bright yellow, adding a striking contrast to its subtle plumage. These owl typically inhabits forest edges, clearings, and second-growth habitats within the Atlantic forest ecosystem. 
+          Being a nocturnal hunter, it feeds primarily on insects and other arthropods, with grasshoppers and beetles being its favorite prey. Small vertebrates such as frogs, lizards, and even small birds may also be taken if the opportunity arises. This tiny predator has an impressive arsenal of tools at its disposal for hunting. Its exceptional hearing, aided by facial discs that direct sound to its asymmetrically placed ears, allows it to locate prey with pinpoint accuracy. Sharp talons and curved beak deliver final blow.
+          These birds are classified as critically endangered by the IUCN Red List due to its restricted and fragmented range. Habitat loss and degradation are the primary threats to its survival. Conservation efforts are focused on protecting and restoring the Atlantic forest habitat and raising awareness about little owl</p>
+        <button style="border: 2px solid rgb(245, 186, 227); padding: 12px; font-size: medium; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 0px; background-color: rgb(252, 248, 248);border-radius: 0px;
+        cursor: pointer;"><a href="https://rb.gy/kuezh3">Click here</a></button>  
+      </div>
+    </article>
+</div>
+<footer>
+    <p>© 2024 -2024 avianlovers-All Rights Reserved</p>
+    <p>WhatsApp No: +91 8448644931</p>
+  </footer>
+</body>
+</html>
